@@ -1,0 +1,32 @@
+.login-wrap .social a{
+	margin-bottom: 30px;
+}
+
+.ftco-section{
+	padding: 6em 0 7em 0;
+}
+
+@media only screen and (max-width: 1400px){
+
+	.ftco-section{
+		padding: 4em 0 7em 0;
+	}
+
+	.login-wrap .social a{
+	margin-bottom: 25px;
+	}
+
+	.form-group{
+		margin-bottom: 1.5rem;
+	}
+}
+
+.logout:hover{
+	background-color:#dc3545 !important;
+	border-color: #dc3545 !important;
+}
+
+.reset:hover{
+	background-color:#0c2c54 !important;
+	border-color: #0c2c54 !important;
+}
