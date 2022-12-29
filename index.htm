@@ -1,0 +1,1270 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+      <title>Woltz | Store</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.htm">Home</a>
+    <a href="products.html">Products</a>
+    <a href="#">About</a>
+    <a href="#">Account</a>
+    <a href="login.php">Login</a>
+  </div>
+</div>
+
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/woltz-logo3.png" width="125px" class="myImg smallImg" alt="This is a WoltzStore website created by Max Woltz. &#169; Copyright all rights reserved.">
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li class="silas">
+
+            <div class="wrapper">
+<form action="/action_page.php">
+  <div class="searchBar">
+    <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+    <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+      <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#666666" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+      </svg>
+    </button>
+  </div>
+</div>  
+</form>
+
+            </li>
+
+
+
+              <li class="none">
+<div class="fixed">
+<div class="bottomMenu" style="display: block;"><img src="images/menu.png" onclick="openNav()"></div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+  $('.bottomMenu').fadeOut();
+}
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+  $('.bottomMenu').fadeIn();
+}
+
+</script>
+
+<script type="text/javascript">
+  $('.bottomMenu').hide();
+        $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  var h = window.innerHeight;
+  if (y > h) {
+    $('.bottomMenu').show();
+  } else {
+    $('.bottomMenu').hide();
+  }
+});
+    </script>
+
+</div>
+            </li>
+
+            </ul>
+        </nav>
+        <img src="images/cart-2.png" width="50px" class="carel">
+
+
+
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+    <div class="row-front">
+        <div class="col-2" id="title">
+            <img src="images/atp-1000-2.png" class="saturate">
+            <p>Paris, France, October 31 - November 06 2022</p>
+            <p><a href="https://www.atptour.com/en/tournaments/paris/352/overview" class="btn" target="_blank">Ontdek nu &#8594;</a></p>
+        </div>
+        <div class="col-2">
+              <img src="images/image2.png">
+        </div>
+
+    </div>
+  </div>
+  </div>
+<div class="line">
+</div>
+<!----- big image 1 products ------>
+<div class="alcaraz">
+  <h2 class="title-alcaraz">
+    For The Winners</h2>
+  <div class="alcaraz-container">
+    <div class="row2">
+      <div class="col-alcaraz">
+        <img src="images/carlos-alcaraz.png">
+      </div>
+      <div class="col-alcaraz-text">
+        Just Do It
+      </div>
+      <div class="col-alcaraz-text-2">
+        carlos alcaraz
+      </div>
+      <div class="col-alcaraz-text-3">
+        <a href="" class="btn-2">Shop</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!----- featured categories ------>
+  <div class="categories">
+    <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <img class="myImg" src="images/alcaraz-fist.jpg" alt="Carlos Alcaraz beat Rafael Nadal and Novak Djokovic on red clay in the Madrid Open, then won the final ">
+      </div>
+      <div class="col-3">
+        <img class="myImg" src="images/alcaraz-motion.jpg" alt="Alcaraz hitting a powerful backhand at Roland Garros in 2021">
+      </div>
+      <div class="col-3">
+        <img class="myImg" src="images/alcaraz-trophy.jpg" alt="Alcaraz after winning his first Grand Slam, the US Open 2022">
+      </div>
+      <div id="myModal" class="modal2">
+  <span class="sluit">&times;</span>
+  <img class="modal2-content" id="img01">
+  <div id="caption"></div>
+</div>
+    </div>
+    </div>
+  </div>
+<!----- featured products ------>
+  <div class="bigger-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+  
+    <div class="mySlides1">
+    <img src="images/shoe-1-5.webp" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/shoe-1-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/shoe-1-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/shoe-1-3.webp" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/shoe-1-4.webp" style="width:100%">
+  </div>
+ 
+  <div class="mySlides1">
+    <img src="images/shoe-1-6.webp" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/shoe-1-7.webp" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/shoe-1-8.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+        <h4 class="subtitle2">NikeCourt Vapor Lite</h4>
+        <h5 class="subtitle">Gravel Tennisschoen voor heren (hard-sole)</h5>
+              
+        <p>€ 69,99</p>
+      </div>
+        <div class="col-4">
+        
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="images/racket-2-5.webp" style="width:100%">
+  </div>
+  <div class="mySlides2">
+    <img src="images/racket-2-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/racket-2-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/racket-2-3.webp" style="width:100%">
+  </div>
+    <div class="mySlides2">
+    <img src="images/racket-2-4.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">Pro Staff RF97 V13 Racket</h4>
+        <h5 class="subtitle">Maximum precision for pinpoint shot placement</h5>
+                
+        <p>€ 279,00</p>
+      </div>
+      <div class="col-4">
+
+        <div class="slideshow-container">
+  <div class="mySlide1">
+    <img src="images/shoe-2-5.webp" style="width:100%">
+  </div>
+  <div class="mySlide1">
+    <img src="images/shoe-2-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlide1">
+    <img src="images/shoe-2-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlide1">
+    <img src="images/shoe-2-3.webp" style="width:100%">
+  </div>
+  <div class="mySlide1">
+    <img src="images/shoe-2-4.webp" style="width:100%">
+  </div>
+  <div class="mySlide1">
+    <img src="images/shoe-2-6.webp" style="width:100%">
+  </div>
+  <div class="mySlide1">
+    <img src="images/shoe-2-7.webp" style="width:100%">
+  </div>
+  <div class="mySlide1">
+    <img src="images/shoe-2-8.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlide(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlide(1, 0)">&#10095;</a>
+</div>      
+        
+        <h4 class="subtitle2">NikeCourt Air Zoom Vapor</h4>
+        <h5 class="subtitle">Hardcourt tennisschoenen voor heren (breed)</h5>
+                
+        <p>€ 119,99</p>
+      </div>
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+    <div class="mySlide2">
+    <img src="images/racket-3-5.webp" style="width:100%">
+  </div>
+   <div class="mySlide2">
+    <img src="images/racket-3-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlide2">
+    <img src="images/racket-3-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlide2">
+    <img src="images/racket-3-3.webp" style="width:100%">
+  </div>
+  <div class="mySlide2">
+    <img src="images/racket-3-4.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlide(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlide(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">TRIAD FIVE TENNIS RACKET</h4>
+        <h5 class="subtitle">Blends power and control the ultimate confidence
+        </h5>
+              
+        <p>€ 219,00</p>
+      </div>
+    </div>
+  </div>
+<!----- big image 2 products ------>
+<div class="shoes">
+  <div class="shoes-container">
+    <div class="row3">
+      <div class="col-shoes">
+              <img src="images/tennisshoes.png">
+      </div>
+      <div class="col-shoes-text">
+        Shop de nieuwste tennisgear
+      </div>
+      <div class="col-shoes-text-2">
+        als een baas op de baan
+      </div>
+      <div class="col-shoes-text-3">
+        <a href="" class="btn-3">Shop</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="bigger-container">
+    <div class="row">
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+  
+    <div class="mySlides7">
+    <img src="images/broek-1-3.webp" style="width:100%">
+  </div>
+  <div class="mySlides7">
+    <img src="images/broek-1-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides7">
+    <img src="images/broek-1-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides7">
+    <img src="images/broek-1-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides7">
+    <img src="images/broek-1-5.webp" style="width:100%">
+  </div>
+ 
+  <div class="mySlides7">
+    <img src="images/broek-1-6.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides5(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides5(1, 0)">&#10095;</a>
+</div>
+        <h4 class="subtitle2">NikeCourt</h4>
+        <h5 class="subtitle">Tennisbroek voor heren</h5>
+                
+        <p>€ 64,99</p>
+      </div>
+        <div class="col-4">
+        
+<div class="slideshow-container">
+  <div class="mySlides8">
+    <img src="images/shorts-2-1.webp" style="width:100%">
+  </div>
+  <div class="mySlides8">
+    <img src="images/shorts-2-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides8">
+    <img src="images/shorts-2-3.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides8">
+    <img src="images/shorts-2-4.jfif" style="width:100%">
+  </div>
+    <div class="mySlides8">
+    <img src="images/shorts-2-5.webp" style="width:100%">
+  </div>
+  <div class="mySlides8">
+    <img src="images/shorts-2-6.webp" style="width:100%">
+  </div>
+  <div class="mySlides8">
+    <img src="images/shorts-2-7.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides5(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides5(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">NikeCourt Dri-FIT</h4>
+        <h5 class="subtitle">Tennisshorts voor heren</h5>
+              
+        <p>€ 69,99</p>
+      </div>
+      <div class="col-4">
+
+        <div class="slideshow-container">
+  <div class="mySlides9">
+    <img src="images/vest-2-1.webp" style="width:100%">
+  </div>
+  <div class="mySlides9">
+    <img src="images/vest-2-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides9">
+    <img src="images/vest-2-3.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides9">
+    <img src="images/vest-2-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides9">
+    <img src="images/vest-2-5.webp" style="width:100%">
+  </div>
+  <div class="mySlides9">
+    <img src="images/vest-2-6.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides6(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides6(1, 0)">&#10095;</a>
+</div>      
+        
+        <h4 class="subtitle2">NikeCourt</h4>
+        <h5 class="subtitle">Tennisjack voor heren</h5>
+                
+        <p>€ 84,99</p>
+      </div>
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+  
+    <div class="mySlides10">
+    <img src="images/shirt-1-1.webp" style="width:100%">
+  </div>
+  <div class="mySlides10">
+    <img src="images/shirt-1-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides10">
+    <img src="images/shirt-1-3.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides10">
+    <img src="images/shirt-1-4.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides6(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides6(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">NikeCourt Dri-FIT</h4>
+        <h5 class="subtitle">Tennispolo voor heren
+        </h5>
+                
+        <p>€ 42,99</p>
+      </div>
+    </div>
+  </div>
+
+
+<!----- video ---->
+<div class="category-video">
+  <div class="titleVideo">
+    <img src="images/Rolex-logo.png" class="titleImage">
+    </div>
+  <div class="video-container">
+    <div class="video-row">
+        <video autoplay loop muted plays-inline class="video">
+          <source src="images/background.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col-video-text">
+        Excellence in motion
+      </div>
+      <div class="col-video-text-2">
+        Rolex and tennis
+      </div>
+      <div class="col-alcaraz-text-3">
+        <a href="https://www.rolex.com/nl" target="_blank" class="btn-2-rolex"><img src="images/Rolex-logo.png" class="tea"></a>
+      </div>
+    </div>
+  </div>
+
+<!----- featured categories ------>
+  <div class="categories">
+    <div class="small-container">
+    <div class="row">
+      <div class="col-3-rolex">
+        <img src="images/rolex-us-open.jpg" id="margin" class="myImg" alt="This is the offical competition watch for the US Open, a Rolex Datejust 36mm in steel and yellow gold, with a Jubilee bracelet" >
+          Rolex Datejust 36 mm  <br>
+          Yellow gold 
+      </div>
+      <div class="col-3-rolex">
+        <img src="images/Federer-Rolex.jpg" id="margin" class="myImg" alt="Roger Federer, of one the best, if not the best, tennis player to have ever lived. In total he won 20 Grand Slams, winning Wimbledon a whopping 8 times">
+        Roger Federer <br>8 time Wimbledon Champion
+      </div>
+      <div class="col-3-rolex">
+        <img src="images/rolex-roland-garros.jpg" id="margin" class="myImg" alt="This is the official competition watch for Roland Garros, a Rolex GMT Master II in Oystersteel and Everose gold model with an Oyster bracelet">
+        Rolex GMT Master II <br>
+        Oystersteel, Everose Gold
+      </div>
+    </div>
+    </div>
+  </div>
+<!----- latest products ------>
+  <div class="small-container">
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+  <div class="mySlides3">
+    <img src="images/vest-1-3.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="images/vest-1-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="images/vest-1-2.webp" style="width:100%">
+  </div>
+  <div class="mySlides3">
+    <img src="images/vest-1-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides3">
+    <img src="images/vest-1-5.webp" style="width:100%">
+  </div>
+  <div class="mySlides3">
+    <img src="images/vest-1-6.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides3(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides3(1, 0)">&#10095;</a>
+</div>
+        <h4 class="subtitle2">NikeCourt Black Jacket</h4>
+        <h5 class="subtitle">Tennisjack voor heren (dubbele rits)</h5>
+              
+        <p>€ 84,99</p>
+      </div>
+        <div class="col-4">
+        
+<div class="slideshow-container">
+  <div class="mySlides4">
+    <img src="images/racket-4-3.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides4">
+    <img src="images/racket-4-1.webp" style="width:100%">
+  </div>
+  <div class="mySlides4">
+    <img src="images/racket-4-2.webp" style="width:100%">
+  </div>
+  <div class="mySlides4">
+    <img src="images/racket-4-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides4">
+    <img src="images/racket-4-5.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides3(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides3(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">Pro Staff 97 V13 Tennis Racket</h4>
+        <h5 class="subtitle">Surperior power and stability for easy depth </h5>
+                
+        <p>€ 299,00</p>
+      </div>
+      <div class="col-4">
+
+        <div class="slideshow-container">
+  <div class="mySlides5">
+    <img src="images/shorts-1-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides5">
+    <img src="images/shorts-1-2.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides5">
+    <img src="images/shorts-1-3.webp" style="width:100%">
+  </div>
+  <div class="mySlides5">
+    <img src="images/shorts-1-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides5">
+    <img src="images/shorts-1-5.jfif" style="width:100%">
+  </div>
+  <div class="mySlides5">
+    <img src="images/shorts-1-6.webp" style="width:100%">
+  </div>
+  <div class="mySlides5">
+    <img src="images/shorts-1-7.webp" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides4(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides4(1, 0)">&#10095;</a>
+</div>      
+        
+        <h4 class="subtitle2">NikeCourt Dri-FIT Advantage</h4>
+        <h5 class="subtitle">Tennisshorts voor heren (18cm)</h5>
+
+        <p>€ 54,99</p>
+      </div>
+      <div class="col-4">
+        
+        <div class="slideshow-container">
+  <div class="mySlides6">
+    <img src="images/shoe-3-5.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides6">
+    <img src="images/shoe-3-1.webp" style="width:100%">
+  </div>
+
+  <div class="mySlides6">
+    <img src="images/shoe-3-2.webp" style="width:100%">
+  </div>
+  <div class="mySlides6">
+    <img src="images/shoe-3-3.webp" style="width:100%">
+  </div>
+  <div class="mySlides6">
+    <img src="images/shoe-3-4.webp" style="width:100%">
+  </div>
+  <div class="mySlides6">
+    <img src="images/shoe-3-6.webp" style="width:100%">
+  </div>
+  <div class="mySlides6">
+    <img src="images/shoe-3-7.jfif" style="width:100%">
+  </div>
+  <div class="mySlides6">
+    <img src="images/shoe-3-8.webp" style="width:100%">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides4(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides4(1, 1)">&#10095;</a>
+</div>
+
+        <h4 class="subtitle2">NikeCourt React Vapor NXT</h4>
+        <h5 class="subtitle">Tennisschoen voor heren (gravel)</h5>
+              
+        <p>€ 179,99</p>
+      </div>
+    </div>
+  </div>
+<!------ offer ------>
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <div class="img-hover-zoom">
+          <img src="images/racket_stringer1.png" id="offer-img">
+        </div>
+        </div>
+        <div class="col-2">
+          <div class="h1-padding">
+          <p>Exlusively Available on Redstore</p>
+          <h1>Penta Premium Stringer 2700</h1>
+          Kwalitatief hoogwaardige bespanmachine voor zowel de beginnende als de reeds gevorderde bespanner. Deze bespanmachine mag u absoluut niet vergelijken met andere soortgelijke machines. Hij is veel steviger, bespant nauwkeuriger en is heel makkelijk in gebruik.
+          <div class="special">
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!------ table ----->
+<div class="small-container">
+  <h2 class="title">World Ranking</h2>
+    <div class="wrapper2">
+    <div class="btn-center">
+    <div class="btn-table-1" onclick="switchVisible1()">Singles</div>
+    <div class="btn-table-2" onclick="switchVisible2()">Doubles</div>
+    </div>
+    <div id="Div1">
+<table>
+      <thead>
+        <tr>
+          <th class="smaller">Rank</th>
+          <th class="team2"></th>
+          <th class="player-name">Player</th>
+          <th class="points">Points</th>
+          <th class="status">Current Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="rank">1</td>
+          <td class="team"><img src="images/spain.svg" class="table-image"></td>
+          <td class="player-name">Carlos Alcaraz</td>
+          <td class="points">6280</td>
+          <td class="status">Paris top seed retires v. Rune in QFs</td>
+        </tr>
+        <tr>
+          <td class="rank">2</td>
+          <td class="team"><img src="images/spain.svg" class="table-image"></td>
+          <td class="player-name">Rafael Nadal</td>
+          <td class="points">5820</td>
+          <td class="status">Still has a chance for year-end No. 1</td>
+        </tr>
+        <tr>
+          <td class="rank">3</td>
+          <td class="team"><img src="images/greece.svg" class="table-image"></td>
+          <td class="player-name">Stefanos Tsitsipas</td>
+          <td class="points">5170</td>
+          <td class="status">Has outside shot at year-end No. 1</td>
+        </tr>
+        <tr>
+          <td class="rank">4</td>
+          <td class="team"><img src="images/norway.svg" class="table-image"></td>
+          <td class="player-name">Casper Ruud</td>
+          <td class="points">5020</td>
+          <td class="status">Falls to Musetti in R3</td>
+        </tr>
+        <tr>
+          <td class="rank">5</td>
+          <td class="team"><img src="images/russia.webp" class="table-image"></td>
+          <td class="player-name">Daniil Medvedev</td>
+          <td class="points">3995</td>
+          <td class="status">Upset by De Minaur in opener</td>
+        </tr>
+        <tr>
+          <td class="rank">6</td>
+          <td class="team"><img src="images/canada.svg" class="table-image"></td>
+          <td class="player-name">Felix Auger-Aliassime</td>
+          <td class="points">3995</td>
+          <td class="status">Win streak hits 16; plays Rune in SFs</td>
+        </tr>
+        <tr>
+          <td class="rank">7</td>
+          <td class="team"><img src="images/russia.webp" class="table-image"></td>
+          <td class="player-name">Andrey Rublev</td>
+          <td class="points">3530</td>
+          <td class="status">Falls to Rune in R3</td>
+        </tr>
+        <tr>
+          <td class="rank">8</td>
+          <td class="team"><img src="images/usa.svg" class="table-image"></td>
+          <td class="player-name">Taylor Fritz</td>
+          <td class="points">2955</td>
+          <td class="status">Turin hopes end with R2 loss to Simon</td>
+        </tr>
+        <tr>
+          <td class="rank">9</td>
+          <td class="team"><img src="images/poland.svg" class="table-image"></td>
+          <td class="player-name">Hubert Hurkacz</td>
+          <td class="points">2905</td>
+          <td class="status">Turin hopes end with R2 loss to Rune</td>
+        </tr>
+        <tr>
+          <td class="rank">10</td>
+          <td class="team"><img src="images/serbia.svg" class="table-image"></td>
+          <td class="player-name">Novak Djokovic</td>
+          <td class="points">2900</td>
+          <td class="status">Qualified as 2022 Grand Slam champion</td>
+        </tr>
+        <tr>
+          <td class="rank">11</td>
+          <td class="team"><img src="images/germany.svg" class="table-image"></td>
+          <td class="player-name">Alexander Zverev</td>
+          <td class="points">2700</td>
+          <td class="status">'21 champ hasn't played since Roland Garros</td>
+        </tr>
+        <tr>
+          <td class="rank">12</td>
+          <td class="team"><img src="images/spain.svg" class="table-image"></td>
+          <td class="player-name">Pablo Carreno Busta</td>
+          <td class="points">2495</td>
+          <td class="status">Falls to Paul in R3</td>
+        </tr>
+        <tr>
+          <td class="rank">13</td>
+          <td class="team"><img src="images/uk.svg" class="table-image"></td>
+          <td class="player-name">Cameron Norrie</td>
+          <td class="points">2445</td>
+          <td class="status">Falls to Moutet in R2 late-night thriller</td>
+        </tr>
+        <tr>
+          <td class="rank">14</td>
+          <td class="team"><img src="images/italy.svg" class="table-image"></td>
+          <td class="player-name">Jannik Sinner</td>
+          <td class="points">2410</td>
+          <td class="status">Falls to Huesler in Paris opener</td>
+        </tr>
+        <tr>
+          <td class="rank">15</td>
+          <td class="team"><img src="images/italy.svg" class="table-image"></td>
+          <td class="player-name">Matteo Berrettini</td>
+          <td class="points">2375</td>
+          <td class="status">Withdraws from Paris with left foot injury</td>
+        </tr>
+        <tr>
+          <td class="rank">16</td>
+          <td class="team"><img src="images/denmark.svg" class="table-image">
+          </td><td class="player-name">Holger Rune</td>
+          <td class="points">2271</td>
+          <td class="status">Reaches first M1000 SF in Paris</td>
+        </tr>
+        <tr>
+      </tbody>
+    </table>
+</div>
+<div id="Div2">
+  <table>
+      <thead>
+        <tr>
+          <th class="smaller">Rank</th>
+          <th class="team2"></th>
+          <th class="player-name">Player</th>
+          <th class="points">Points</th>
+          <th class="status">Last Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="rank">1</td>
+          <td class="team"><div class="image-above"><img src="images/nederland.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/uk.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Wesley Koolhof</div>
+            <div class="text-bottom">Neal Skupski</div></td>
+          <td class="points">6810</td>
+          <td class="last-played"><div class="status1"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">2</td>
+          <td class="team"><div class="image-above"><img src="images/usa.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/uk.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Rajeev Ram</div>
+            <div class="text-bottom">Joe Sallsbury</div></td>
+          <td class="points">5890</td>
+          <td class="last-played"><div class="status2"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">3</td>
+          <td class="team"><div class="image-above"><img src="images/honduras.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/nederland.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Marcelo Arevalo</div>
+            <div class="text-bottom">Jean-Julien Rojer</div></td>
+          <td class="points">5255</td>
+          <td class="last-played"><div class="status3"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">4</td>
+          <td class="team"><div class="image-above"><img src="images/croatia.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/croatia.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Nikola Mektic</div>
+            <div class="text-bottom">Mate Pavic</div></td>
+          <td class="points">4165</td>
+          <td class="last-played"><div class="status4"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">5</td>
+          <td class="team"><div class="image-above"><img src="images/uk.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/finland.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Lloyd Glasspool</div>
+            <div class="text-bottom">Harri Hellovaara</div></td>
+          <td class="points">3600</td>
+         <td class="last-played"><div class="status5"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">6</td>
+          <td class="team"><div class="image-above"><img src="images/spain.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/argentine.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Marcel Granollers</div>
+            <div class="text-bottom">Horaclo Zeballos</div></td>
+          <td class="points">3560</td>
+          <td class="last-played"><div class="status6"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">7</td>
+          <td class="team"><div class="image-above"><img src="images/croatia.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/usa.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Ivan Dodig</div>
+            <div class="text-bottom">Austin Krajicek</div></td>
+          <td class="points">3460</td>
+          <td class="last-played"><div class="status7"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">8</td>
+          <td class="team"><div class="image-above"><img src="images/australia.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/australia.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Thanasi Kokkinakis</div>
+            <div class="text-bottom">Nick Kyrgios</div></td>
+          <td class="points">3150</td>
+          <td class="last-played"><div class="status8"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">9</td>
+          <td class="team"><div class="image-above"><img src="images/germany.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/australia.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Tim Puetz</div>
+            <div class="text-bottom">Michael Venus</div></td>
+          <td class="points">3140</td>
+          <td class="last-played"><div class="status9"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">10</td>
+          <td class="team"><div class="image-above"><img src="images/germany.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/germany.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Kevin Krawletz</div>
+            <div class="text-bottom">Andreas Mies</div></td>
+          <td class="points">2910</td>
+          <td class="last-played"><div class="status10"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">11</td>
+          <td class="team"><div class="image-above"><img src="images/italy.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/italy.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Simone Bolelli</div>
+            <div class="text-bottom">Fabio Fognini</div></td>
+          <td class="points">2760</td>
+         <td class="last-played"><div class="status11"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">12</td>
+          <td class="team"><div class="image-above"><img src="images/colombia.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/colombia.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Juan Sebastian Cabal</div>
+            <div class="text-bottom">Robert Farah</div></td>
+          <td class="points">2595</td>
+          <td class="last-played"><div class="status12"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">13</td>
+          <td class="team"><div class="image-above"><img src="images/brazil.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/spain.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Rafael Matos</div>
+            <div class="text-bottom">David Vega Hernandez</div></td>
+          <td class="points">2215</td>
+          <td class="last-played"><div class="status13"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">14</td>
+          <td class="team"><div class="image-above"><img src="images/australia.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/australia.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Matthew Ebden</div>
+            <div class="text-bottom">Max Purcell</div></td>
+          <td class="points">2185</td>
+          <td class="last-played"><div class="status14"></div></td>
+        </tr>
+        <tr>
+          <td class="rank">15</td>
+          <td class="team"><div class="image-above"><img src="images/india.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/nederland.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Rohan Bopanna</div>
+            <div class="text-bottom">Matwe Middelkoop</div></td>
+          <td class="points">2095</td>
+          <td class="last-played"><div class="status15"></div></td>
+        </tr>
+        <tr>
+         <td class="rank">16</td>
+          <td class="team"><div class="image-above"><img src="images/mexico.svg" class="table-image-2"></div><div class="image-bottom"><img src="images/argentine.svg" class="table-image-2"></div></td>
+          <td class="player-name"><div class="text-above">Santiago Gonzalez</div>
+            <div class="text-bottom">Andres Molteni</div></td>
+          <td class="points">1985</td>
+          <td class="last-played"><div class="status16"></div></td>
+        </tr>
+        <tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+  <script type="text/javascript">
+function switchVisible1() {
+                    document.getElementById('Div1').style.display = 'block';
+                    document.getElementById('Div2').style.display = 'none';
+                } 
+ 
+function switchVisible2() {
+                   document.getElementById('Div2').style.display = 'block';
+                    document.getElementById('Div1').style.display = 'none';
+            }
+</script>
+</div>
+<!--------- news --------->
+  <div class="testimonial">
+    <h2 class="title">News</h2>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <a href="">
+          <img src="images/djokovic-news.jpeg">
+          <div class="news-text">
+          <h3 class="djoker">Djokovic Wins Decisive Tiebreak To Continue Dominance
+            Of Tsitsipas In Paris Semi-Finals
+          </h3>
+        </div>
+      </a>
+        </div>
+        <div class="col-3">
+          <a href="">
+          <img src="images/retirement.jpg">
+          <div class="news-text">
+          <h3 class="federer">The Ultimate Federer Retirement Tribute Collection
+          </h3>
+        </div>
+      </a>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-3-2">
+          <a href="">
+          <img src="images/felix.jpg">
+          <div class="news-text">
+          <h3 class="felix">Felix: 'He Exposed Weaknesses In My Game'</h3>
+          </div>
+        </a>
+        </div>
+        <div class="col-3-2">
+        <a href="">
+        <img src="images/tsitsipas.jpg">
+        <div class="news-text">
+        <h3 class="tsitsipas">Tsitsipas Earns Shot At Djokovic In Paris Semi-Finals</h3>
+        </div>
+        </a>
+        </div>
+        <div class="col-3-2">
+        <a href="">
+        <img src="images/holger-rune.jpg">
+        <div class="news-text">
+        <h3 class="rune">Rune Rockets Past Felix To Paris Final</h3>
+        </div>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!----------- brands ----------->
+
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <a href="https://www.tennis-point.nl/" target="_blank">
+          <img src="images/Logo-Tennispoint.png">
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="https://www.lacoste.com/nl/" target="_blank">
+          <img src="images/logo-Lacoste.png">
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="https://www.rolex.com/nl" target="_blank">
+          <img src="images/logo-Rolex.png">
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="https://www.wilson.com/en-us/tennis/tennis-rackets" target="_blank">
+          <img src="images/logo-Wilson.png">
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="https://www.nike.com/nl/" target="_blank">
+          <img src="images/logo-Nike.png" class="Nike">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!----------- footer ---------->
+  
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and IOS mobile phone.</p>
+          <div class="app-logo">
+            <img src="images/play-store.png">
+            <img src="images/app-store.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/woltz-logo3.png" class="myImg" alt="This is a WoltzStore website created by Max Woltz. &#169; Copyright all rights reserved.">
+          <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accesible to the Many.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us </h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2022 - Max Woltz</p>
+    </div>
+  </div>
+<!---------- js for toggle menu --------->
+  <script type="text/javascript">
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(MenuItems.style.maxHeight == "0px")
+      {
+        MenuItems.style.maxHeight = "330px";
+      }
+      else
+      {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<script>
+
+let slideIndex2 = [1,1];
+let slideId2 = ["mySlide1", "mySlide2"]
+showSlide(1, 0);
+showSlide(1, 1);
+
+function plusSlide(n, no) {
+  showSlide(slideIndex2[no] += n, no);
+}
+
+function showSlide(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId2[no]);
+  if (n > x.length) {slideIndex2[no] = 1}    
+  if (n < 1) {slideIndex2[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex2[no]-1].style.display = "block";  
+}
+</script>
+
+<script>
+
+let slideIndex3 = [1,1];
+let slideId3 = ["mySlides3", "mySlides4"]
+showSlides3(1, 0);
+showSlides3(1, 1);
+
+function plusSlides3(n, no) {
+  showSlides3(slideIndex3[no] += n, no);
+}
+
+function showSlides3(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId3[no]);
+  if (n > x.length) {slideIndex3[no] = 1}    
+  if (n < 1) {slideIndex3[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex3[no]-1].style.display = "block";  
+}
+</script>
+
+<script>
+
+let slideIndex4 = [1,1];
+let slideId4 = ["mySlides5", "mySlides6"]
+showSlides4(1, 0);
+showSlides4(1, 1);
+
+function plusSlides4(n, no) {
+  showSlides4(slideIndex4[no] += n, no);
+}
+
+function showSlides4(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId4[no]);
+  if (n > x.length) {slideIndex4[no] = 1}    
+  if (n < 1) {slideIndex4[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex4[no]-1].style.display = "block";  
+}
+</script>
+
+<script>
+
+let slideIndex5 = [1,1];
+let slideId5 = ["mySlides7", "mySlides8"]
+showSlides5(1, 0);
+showSlides5(1, 1);
+
+function plusSlides5(n, no) {
+  showSlides5(slideIndex5[no] += n, no);
+}
+
+function showSlides5(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId5[no]);
+  if (n > x.length) {slideIndex5[no] = 1}    
+  if (n < 1) {slideIndex5[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex5[no]-1].style.display = "block";  
+}
+</script>
+
+<script>
+
+let slideIndex6 = [1,1];
+let slideId6 = ["mySlides9", "mySlides10"]
+showSlides6(1, 0);
+showSlides6(1, 1);
+
+function plusSlides6(n, no) {
+  showSlides6(slideIndex6[no] += n, no);
+}
+
+function showSlides6(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId6[no]);
+  if (n > x.length) {slideIndex6[no] = 1}    
+  if (n < 1) {slideIndex6[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex6[no]-1].style.display = "block";  
+}
+</script>
+<script>
+var modal2 = document.getElementById('myModal');
+
+var img = document.getElementsByClassName('myImg');
+var modal2Img = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal2.style.display = "block";
+    modal2Img.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+var span = document.getElementsByClassName("sluit")[0];
+
+span.onclick = function() { 
+    modal2.style.display = "none";
+}
+</script>
+
+</body>
+</html>
